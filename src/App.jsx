@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Layout from "./components/Layout"
 import Main from "./components/Main"
 import Services from "./components/Services"
+import TestimonialContainer from "./components/TestimonialContainer"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <Services />
+      <TestimonialContainer/>
     </Layout>
 
   )
