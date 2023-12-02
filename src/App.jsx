@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Gallery from "./components/Gallery"
 import Header from "./components/Header"
 import Layout from "./components/Layout"
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <TestimonialContainer/>
       <Gallery/>
+      <Footer/>
     </Layout>
 
   )
