@@ -1,6 +1,6 @@
 
 
-const ServicesImg = ({order, imgMobile, imgDesktop}) => {
+const ServicesImg = ({order="", imgMobile, imgDesktop}) => {
   return (
     <picture className={order}>
         <source media='(max-width:639px)' srcSet={imgMobile} />
